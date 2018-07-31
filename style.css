@@ -35,10 +35,11 @@ a {
 }
 
 #scoresDiv {
-    height: 295px;
+    margin-top: 30px;
+    margin-bottom: 40px;
     display: grid;
-    grid-template-columns: 120 120 120;
-    grid-template-rows: 250px 60px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 250px 80px;
     justify-items: center;
     align-items: center;
     justify-content: space-evenly;
@@ -125,5 +126,5 @@ p {
 }
 
 .hover {
-    transform: scale(1.1);
+    transform: scale(1.3);
 }
