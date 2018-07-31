@@ -37,7 +37,7 @@ a {
 #scoresDiv {
     height: 295px;
     display: grid;
-    grid-template-columns: 80px 30px 80px;
+    grid-template-columns: 120 120 120;
     grid-template-rows: 250px 60px;
     justify-items: center;
     align-items: center;
@@ -68,6 +68,7 @@ img {
     height: 150px;
     width: 300px;
     margin: 15px;
+    transition: all .03s ease;
 }
 
 #message {
@@ -104,7 +105,7 @@ p {
     grid-row: 1 / 2;
 }
 
-#scoreColon {
+#tieMessage {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
 }
@@ -117,4 +118,12 @@ p {
 #compLabel {
     grid-column: 3 / 4;
     grid-row: 2 / 3;
+}
+
+#reset:hover {
+    color: #485699;
+}
+
+.hover {
+    transform: scale(1.1);
 }

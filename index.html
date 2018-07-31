@@ -16,22 +16,22 @@
             
             <div id='scoresDiv'>
                 <div id='playerScore' style='font-size: 350px'></div>
-                <div id='scoreColon' style='font-size: 80px'>:</div>
+                <div id='tieMessage' style='font-size: 20px'></div>
                 <div id='compScore' style='font-size: 350px'></div>
                 <div id='playerLabel'>you</div>
-                <div></div>
+                <div id='reset'>reset</div>
                 <div id='compLabel'>computer</div>
             </div>
 
             <div id='buttonsDiv'>
-                <img src='rock.png' id='rockBtn' class="btn">
-                <img src='paper.png' id='paperBtn' class="btn">
-                <img src='scissors.png' id='scissorsBtn' class="btn">
+                <img src='rock.png' id='rock' class="btn" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
+                <img src='paper.png' id='paper' class="btn" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
+                <img src='scissors.png' id='scissors' class="btn" onmouseover="mouseIn(this)" onmouseout="mouseOut(this)">
             </div>
 
-            <div id='message' class="centered">computer chose rock</div>
+            <div id='message' class="centered"></div>
 
-            <div id='footerDiv'><p>by <a href='github.com/abd36' target="_blank">@abd36</a></p></div>
+            <div id='footerDiv'><p>by <a href='https://github.com/abd36' target="_blank">@abd36</a></p></div>
         </div>
     
         <script type="text/javascript" src="script.js"></script>
