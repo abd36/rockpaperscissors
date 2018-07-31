@@ -36,10 +36,10 @@ a {
 
 #scoresDiv {
     margin-top: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-rows: 250px 80px;
+    grid-template-rows: 250px 95px;
     justify-items: center;
     align-items: center;
     justify-content: space-evenly;
@@ -73,6 +73,7 @@ img {
 }
 
 #message {
+    margin-top: 10px;
     font-size: 22px;
     font-style: italic;
     color: #828282;
