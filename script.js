@@ -1,7 +1,16 @@
 const playerScore = document.querySelector('#playerScore');
-//playerScore.textContent = 'new text';
+const compScore = document.querySelector('#compScore');
 
+const rockBtn = document.querySelector('#rockBtn')
+const paperBtn = document.querySelector('#paperBtn')
+const scissorsBtn = document.querySelector('#scissorsBtn')
 
+const message = document.querySelector('#message')
+
+playerScore.textContent = 0;
+compScore.textContent = 0;
+
+message.textContent = 'choose a weapon to start';
 
 /*function computerPlay() {
     var choices = ['rock', 'paper', 'scissors'];

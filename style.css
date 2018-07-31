@@ -35,10 +35,13 @@ a {
 }
 
 #scoresDiv {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: nowrap;
-    line-height: 280px;
+    height: 295px;
+    display: grid;
+    grid-template-columns: 80px 30px 80px;
+    grid-template-rows: 250px 60px;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
     color: #212746;
 }
 
@@ -46,18 +49,14 @@ a {
     margin-top: 0px;
     display: flex;
     justify-content: space-around;
-    color: #212746;
+    
 }
 
-.scores {
-    margin-left: 22%;
-    margin-right: 22%;
-}
+
 #buttonsDiv {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding-bottom: 0px;
 }
 
 img {
@@ -71,11 +70,10 @@ img {
     margin: 15px;
 }
 
-#compChoiceDiv {
-    margin-top: -7px;
+#message {
     font-size: 22px;
     font-style: italic;
-    color: #212746;
+    color: #828282;
 }
 
 #footerDiv {
@@ -94,4 +92,29 @@ p {
     color: darkgray;
     font-size: 15px;
     font-weight: bolder;
+}
+
+#playerLabel {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+#playerScore {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+#scoreColon {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+#compScore {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+#compLabel {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
 }
